@@ -1,0 +1,37 @@
+.bg-dark{
+    background-color: #fff;
+}
+/* src/assets/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #343a40 !important; /* Darker navbar */
+  }
+  
+  .navbar-brand img {
+    max-height: 50px;
+  }
+  
+  .nav-link {
+    color: #FFC007 !important;
+    font-weight: 600 !important;
+    padding: 0 !important;
+    margin: 0 30px !important;
+  }
+  
+  .nav-link:hover {
+    color: #fff !important; /* Highlight color on hover */
+  }
+  .dropdown-item.active, .dropdown-item:active {
+    color: #212529 !important;
+    background-color: #ffd203 !important;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #ffd203 !important;
+}
